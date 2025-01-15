@@ -14,3 +14,7 @@ let initial_fuel = 100
 let allow_partial_timeout = true
 
 let max_time_execution = 0.01 (* seconds *)
+
+let save_modules = false (* Set to 'true' enable saving modules *)
+
+let output_dir = Fpath.v "generated_modules" (* Directory to save modules *)
